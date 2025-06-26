@@ -9,7 +9,10 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en">
-      <body className="bg-zinc-950 text-zinc-50">{children}</body>
+      <head>
+        <link rel="icon" href="/sudokuIcon.png" sizes="any" />
+      </head>
+      <body className="w-screen h-screen content-center bg-zinc-950 text-zinc-50">{children}</body>
     </html>
   )
 }
