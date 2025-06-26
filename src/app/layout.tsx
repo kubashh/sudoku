@@ -10,7 +10,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
   return (
     <html lang="en">
       <head>
-        <link rel="icon" href="/sudoku/favicon.png" sizes="any" />
+        <link rel="icon" href="/sudoku/favicon.png" />
       </head>
       <body className="w-screen h-screen content-center bg-zinc-950 text-zinc-50">{children}</body>
     </html>
